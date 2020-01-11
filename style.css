@@ -11,6 +11,32 @@ body {
     align-items: center;
 }
 
+.top-content{
+    margin-top: 40px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 35px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    color: #FFD700;
+    transform: rotate(-35deg);
+}
+
+.bot-content {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 35px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    color: #FFD700;
+    transform: rotate(-35deg);
+    margin-bottom: 100px;
+    margin-right: 95px;
+}
+
+
 .piano {
     display: flex;
 }
@@ -40,4 +66,22 @@ body {
 
 .black.active {
     background-color: #333;
+}
+
+.white-key {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 345px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+.black-key {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 190px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
 }
